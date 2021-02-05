@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: office-management
+  data:
+    mongodb:
+      uri: mongodb+srv://root:test@sepi.ebjvj.mongodb.net/office-management?retryWrites=true&w=majority
+      database: office-management
+server:
+  port: 7300
+
+logging:
+  level:
+    org.springframework: INFO
+    com.sepi.officemanagement: DEBUG
